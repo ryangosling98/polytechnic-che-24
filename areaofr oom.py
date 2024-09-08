@@ -21,3 +21,20 @@ my_room = Room(length, width)
 # Calculate and print the area
 area = my_room.calculate_area()
 print("The area of the room is:", area, "square units")
+
+
+# here is the no comment version if you understands well 
+class Room:
+  def __init__(self, length, width):
+    self.length = length
+    self.width = width
+
+  def calculate_area(self):
+    return self.length * self.width
+
+length = float(input("Enter the length of the room: "))
+width = float(input("Enter the width of the room: "))
+
+my_room = Room(length, width)
+area = my_room.calculate_area()
+print("The area of the room is:", area, "square units")
