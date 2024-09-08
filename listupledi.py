@@ -1,3 +1,6 @@
+# used just one program to demonstrate all
+
+
 # Creating lists, tuples, and dictionaries
 fruits = ["apple", "banana", "orange"]
 numbers = (1, 2, 3, 4)
